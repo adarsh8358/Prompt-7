@@ -1,0 +1,65 @@
+@media (max-width: 600px) {
+    
+    .overlay{
+        height: 70.5%;
+    }
+
+    .logo img{
+        height: 70px;  
+        margin-top: 20px;
+        margin-left: 20px;   
+    }
+
+    .menue{
+        display: none;
+    }
+
+    .rbutton{
+        margin-top: 11%;
+        margin-right: 10%;
+    }
+
+    .ri-menu-line{
+        display: flex;
+        position: absolute;
+        left: 93%;
+        top: 7%;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 28%;
+    }
+
+    .slogan{
+        margin-top: 4%;
+    }
+
+    .para{
+        margin-top: 8%;
+    }
+
+    h6{
+        padding-top: 28%;
+    }
+
+    .mbutton{
+        margin-top: 6%;
+    }
+
+    .pizza{
+        display: none;
+    }
+
+    .pizza2{
+        display: none;
+    }
+
+    h4{
+        display: none;
+    }
+
+    h5{
+        display: none;
+    }
+}

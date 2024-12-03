@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1675264388538-8d839b9672e3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 2.5%;
+    margin-top: 1.5%;
+}
+
+.logo img{
+    border-radius: 50%;
+}
+
+.menue{
+    padding: 3%;
+    display: flex;
+    gap: 70px;
+    height: 10%;
+}
+
+.menue > a{
+    text-decoration: none;
+    color: white;
+}
+
+.menue > a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.rbutton{
+    margin-left: -34%;
+    margin-right: 3%;
+    margin-top: 2%;
+    background-color: #F5F0CD;
+}
+
+button{
+    height: 40px;
+    width: 80px;
+}
+
+.ri-menu-line{
+    position: absolute;
+    top: 6%;
+    left: 98%;
+    display: none;
+}
+
+h1{
+    font-weight: 700;
+    font-size:80px;
+    margin-left: 14%;
+    margin-top: 2%;
+    color: whitesmoke;
+}
+
+.slogan{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 14.5%;
+    margin-top: 1%;
+    color: whitesmoke;
+}
+
+.para{
+    font-weight: 700;
+    font-size: 15px;
+    margin-left: 15%;
+    margin-top: 3%;
+    color: whitesmoke;
+}
+
+.image{
+    height: 29.5%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+h6{
+    margin-left: 15%;
+    padding-top: 2%;
+    font-size: 25px;
+    color: #A59D84;
+}
+
+.mbutton{
+    margin-left: 15%;
+    margin-top: 1%;
+    background-color: #ECEBDE;
+    height: 45px;
+    width: 150px;
+}
+
+.pizza{
+    position: absolute;
+    left: 60%;
+    top: 26%;
+    border-radius: 4%;
+    opacity: 1;
+    border-radius: 50%;
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h4{
+    color: #E38E49;
+    position: absolute;
+    left: 60%;
+    top: 66%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.pizza:hover{
+    border-radius: 10%;
+    transition: all ease 0.5s;
+}
+
+
+.pizza2{
+    border-radius: 50%;
+    position: absolute;
+    left: 77%;
+    top: 50%;
+    opacity: 2;
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h5{
+    color: #E38E49;
+    position: absolute;
+    left: 75%;
+    top: 90%;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+.pizza2:hover{
+    border-radius: 10%;
+    transition: all ease 0.5s;
+}
+
+
+
+@keyframes rotate {
+    
+    from{
+        rotate: 0;
+    }
+
+    to{
+        rotate: 360deg;
+    }
+}
